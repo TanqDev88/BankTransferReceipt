@@ -1,47 +1,48 @@
-<h1 align="center">
-  <p align="center">faas-log-monitoring</p>
-</h1>
+<h1 align="center">✨ faas-log-monitoring ✨</h1>
+<p align="center">A lightweight service for monitoring and processing FaaS logs.</p>
 
+---
 
 ## 🚀 Technologies and Tools
-
-<h1></h1>
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
+</p>
 
 <a name="technologies"></a>
-## Technologies Used 💻
+## 📚 Technologies Used
 
 <details>
-<summary>Click Here for Details ↩️</summary>
+<summary>Click to expand ↩️</summary>
 <br>
-<p>Technologies Used:</p>
-<ul>
-<li>JS: <a href="https://www.javascript.com/">Link to official documentation</a></li>
-<li>Node.js: <a href="https://nodejs.org/en">Link to official documentation</a> </li>
-<li>Express Framework: <a href="https://expressjs.com/es/">Link to official documentation</a></li>
-</ul>
 
-   </details>
+- **JavaScript** → [Official Documentation](https://www.javascript.com/)  
+- **Node.js** → [Official Documentation](https://nodejs.org/en)  
+- **Express Framework** → [Official Documentation](https://expressjs.com/es/)  
+
+</details>
+
+---
+
 <a name="installation"></a>
-## Installing the project
-***
-Clone the project from the following Github URL.
-```
-$ git clone https://github.com/TanqDev88/Ejercicios_V2.git
+## ⚙️ Installation
 
-```
-Install the following tools locally:
-```
+Clone the project:
+
+git clone https://github.com/TanqDev88/Ejercicios_V2.git
+
+<p><b>Install dependencies:</b></p>
 npm install
-npm install express multer csv-parser axios
-npm install moment
+npm install express multer csv-parser axios moment
 
-```
-From the folder where the project was cloned, run the following command to start the service:
-```
+<a name="running"></a>
+
+▶️ Running the Project
+<p>From the cloned folder, start the service with:</p>
 node index.js
 
-```
+<a name="notes"></a>
+
+📌 Notes
+<ul> <li>Ensure you have <b>Node.js</b> installed (v14+ recommended).</li> <li>This service processes logs, so input files or endpoints may be required depending on your use case.</li> </ul>
